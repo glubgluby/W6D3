@@ -222,7 +222,7 @@ class UsersSearch {
         debugger
         for (let i=0; i<users.length;i++) {
             this.ul.append(`<li id="${i}"></li>`)
-            $(`#${i}`).append(`<a href="users/${users[i].id}">Fuck you</a>`)
+            $(`#${i}`).append(`<a href="users/${users[i].id}"></a>`)
         }
     }
 }
